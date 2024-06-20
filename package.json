@@ -1,0 +1,16 @@
+{
+  "name": "journey-beyond-earth",
+  "version": "1.0.0",
+  "description": "A NASA information website",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

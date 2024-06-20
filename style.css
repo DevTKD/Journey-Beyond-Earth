@@ -1,0 +1,89 @@
+.header-container {
+    display: flex;
+    align-items: center; /* This will vertically center align the items */
+  }
+  
+  .img-container .img-fluid {
+    border-radius: 50%;
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover; 
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+  
+  h1 {
+    margin-left: 30px; 
+    font-family: 'Space Age';
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    padding-bottom: 20px;
+  }
+    .card {
+      width: 18rem;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card-content {
+      flex:1;
+    }
+  
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    .card-body {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-family: 'Space Age' !important;
+    }
+  
+    .card .btn {
+      display: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .card-body p {
+      text-align: center;
+    }
+  
+  
+    .header {
+      text-align: center; 
+      font-family: 'Space Age';
+      padding-top: 20px;
+    }
+  
+    footer {
+      background-color: #151515; /* Background color of the footer */
+      color: #fff; /* Text color of the footer */
+      padding: 8px; /* Reduce padding for smaller footer */
+      width: 100%; /* Make the footer span the entire width */
+      bottom: 0; /* Position the footer at the bottom */
+      display: flex; /* Use flexbox for layout */
+      justify-content: space-between; /* Space out the content */
+      font-size: 14px; /* Reduce font size for smaller text */
+      font-family: 'Space Age'
+    }
+    
+    .footer-left {
+      text-align: left; /* Align text to the left */
+      margin-right: 20px;
+    }
+    
+    .footer-right {
+      text-align: right; /* Align text to the right */
+    }
+  
+    
