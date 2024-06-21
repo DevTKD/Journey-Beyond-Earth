@@ -95,8 +95,8 @@
             <div class="card-body d-flex flex-column">
               <p class="card-text">
                 <strong>Upcoming Launches</strong> <br />
-                Explore upcoming space launches, featuring detailed information on
-                launch dates, mission names, and launch sites.
+                Explore upcoming space launches, featuring detailed information
+                on launch dates, mission names, and launch sites.
               </p>
               <div class="mt-auto text-center">
                 <a href="#" id="takeoff-button" class="btn btn-dark"
@@ -106,7 +106,7 @@
             </div>
           </div>
         </div>
-    
+
         <!--Info Card 2-->
         <div class="col-md-4">
           <div class="card h-100">
@@ -119,12 +119,14 @@
                 advancements in space technology.
               </p>
               <div class="mt-auto text-center">
-                <a href="#" id="get-news-button" class="btn btn-dark">Get the News</a>
+                <a href="#" id="get-news-button" class="btn btn-dark"
+                  >Get the News</a
+                >
               </div>
             </div>
           </div>
         </div>
-    
+
         <!--Info Card 3-->
         <div class="col-md-4">
           <div class="card h-100">
@@ -137,14 +139,15 @@
                 bodies.
               </p>
               <div class="mt-auto text-center">
-                <a href="#" id="solar-map-button" class="btn btn-dark">Solar Map</a>
+                <a href="#" id="solar-map-button" class="btn btn-dark"
+                  >Solar Map</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
 
     <!--Footer-->
     <footer>
@@ -163,5 +166,30 @@
       crossorigin="anonymous"
     ></script>
     <script src="scripts.js"></script>
+
+    <!--Adding Firebase-->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDhDRAFTvfpdIRsZE_pIaYMQ-tMl3FYnBU",
+        authDomain: "journey-beyond-earth.firebaseapp.com",
+        projectId: "journey-beyond-earth",
+        storageBucket: "journey-beyond-earth.appspot.com",
+        messagingSenderId: "691779334035",
+        appId: "1:691779334035:web:f63aba7e51626e45cf8266",
+        measurementId: "G-NGG9F8EVEJ",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
