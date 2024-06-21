@@ -41,15 +41,45 @@
 
     <!--Main Header and Photo of the Day-->
     <div class="header-container">
-      <div class="img-container">
-        <img src="images/space1.jpg" class="img-fluid" alt="Shooting Star" />
+      <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="mySlides fade">
+          <img
+            src="images/black_astronauts2.jpg"
+            alt="Black excellence in NASA"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/cites_at_night.jpg" alt="US from space at night" />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="images/spacex--p-KCm6xB9I-unsplash.jpg"
+            alt="Cape Canaveral Rocket Launch"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/black_astronauts1.jpg" alt="Black Space Week 2024" />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="images/marcelo-quinan-R3pUGn5YiTg-unsplash.jpg"
+            alt="Northern Lights"
+          />
+        </div>
+
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div>
-        <h1>
-          Journey Beyond... <br />
-          <em>Unveiling the Wonders of Space!</em>
-        </h1>
-      </div>
+      <h1>
+        Journey Beyond... <br />
+        <em>Unveiling the Wonders of Space!</em>
+      </h1>
     </div>
 
     <div class="card-container">
@@ -64,8 +94,8 @@
           <div class="card-body">
             <p class="card-text">
               <strong>Upcoming Launches</strong> <br />
-              The app displays a list of upcoming space launches, including
-              dates, mission names, and launch sites.
+              Explore upcoming space launches, featuring detailed information on
+              launch dates, mission names, and launch sites.
             </p>
             <div class="d-flex justify-content-center">
               <a href="#" id="takeoff-button" class="btn btn-dark"
@@ -82,8 +112,9 @@
         <div class="card-body">
           <p class="card-text">
             <strong>NASA News</strong> <br />
-            Every day, amazing things happen at NASA! Stay up-to-date with
-            latest space news.
+            Every day, extraordinary events unfold at NASA! Get the latest
+            updates on space missions, groundbreaking discoveries, and
+            advancements in space technology.
           </p>
           <div class="d-flex justify-content-center">
             <a href="#" id="get-news-button" class="btn btn-dark"
@@ -99,8 +130,9 @@
         <div class="card-body">
           <p class="card-text">
             <strong>Interactive Solar System Map</strong> <br />
-            Explore an interactive map of the solar system, complete with
-            information about planets, moons, and other celestial bodies.
+            Discover an interactive map of the solar system, featuring
+            comprehensive details about planets, moons, and other celestial
+            bodies.
           </p>
           <div class="d-flex justify-content-center">
             <a href="#" id="solar-map-button" class="btn btn-dark">Solar Map</a>
@@ -112,18 +144,19 @@
     <!--Footer-->
     <footer>
       <div class="footer-left">
-        <p>Images and data provided by the NASA API</p>
+        <p>Images and data provided by the NASA &amp Unsplash</p>
       </div>
 
       <div class="footer-right">
         <p>Designed with ❤️ by TKD 2024</p>
       </div>
     </footer>
-    <script src="scripts.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
